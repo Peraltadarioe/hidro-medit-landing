@@ -31,22 +31,13 @@ header img {
   height: 50px;
 }
 
+header .contenedor {
+  display: table;
+}
+
 .contenedor {
   width: 98%;
   margin: auto;
-}
-
-.contenedor .bomba-index {
-  width: 70%;
-  max-width: 500px;
-}
-
-h1 {
-  float: left;
-}
-
-header .contenedor {
-  display: table;
 }
 
 #bienvenidos {
@@ -54,6 +45,14 @@ header .contenedor {
   position: relative;
 }
 
+#bienvenidos .contenedor .bomba-index {
+  width: 70%;
+  max-width: 500px;
+}
+
+#bienvenidos .contenedor .subtitle {
+  margin-top: 1em;
+}
 section {
   width: 100%;
   margin-bottom: 25px;
