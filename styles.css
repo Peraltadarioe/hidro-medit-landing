@@ -25,6 +25,11 @@ section {
   width: 100%;
   margin-bottom: 25px;
 }
+
+#clientes-proveedores {
+  background: #fff;
+  padding: .5em;
+}
 /* GENERALES -------------------------------------*/
 
 /* HEADER -------------------------------------*/
@@ -132,13 +137,60 @@ footer .contenedor {
 #clientes img {
   width: 100%;
   max-height: 200px;
+  -webkit-box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.42); 
+  box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.42);
 }
+/* CLIENTES SECTION -------------------------------------*/
+
+
+/* PROVEEDORES SECTION -------------------------------------*/
+#proveedores {
+  background-color: #fff;
+}
+
+#proveedores h3 {
+  text-align: center;
+}
+
+#proveedores .contenedor{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* border: 1px solid black; */
+  height: 250px;
+}
+
+#proveedores img {
+  width: 100%;
+  max-height: 200px;
+  -webkit-box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.42); 
+  box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.42);
+}
+
+
+
+/* PROVEEDORES SECTION -------------------------------------*/
+
+/* PRODUCTOS SECTION -------------------------------------*/
+
+#productos h3, #productos h4 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+
+
+
+/* PRODUCTOS SECTION -------------------------------------*/
+
+/* SLIDESHOWs SECTION -------------------------------------*/
 
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
+  margin-top: 60px;
 }
 
 /* Hide the images by default */
@@ -150,7 +202,7 @@ footer .contenedor {
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: -35px;
   width: auto;
   margin-top: -22px;
   padding: 16px;
@@ -170,7 +222,7 @@ footer .contenedor {
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgb(103, 170, 206);
 }
 
 /* Caption text */
@@ -209,6 +261,8 @@ footer .contenedor {
   background-color: #717171;
 }
 
+/* SLIDESHOWs SECTION -------------------------------------*/
+
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
@@ -227,69 +281,6 @@ footer .contenedor {
   to {opacity: 1}
 }
 
-/* CLIENTES SECTION -------------------------------------*/
-
-/* PROVEEDORES SECTION -------------------------------------*/
-#proveedores {
-  background-color: #fff;
-}
-
-#proveedores h3 {
-  text-align: center;
-}
-
-#proveedores .contenedor{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  /* border: 1px solid black; */
-  height: 250px;
-}
-
-#proveedores img {
-  width: 100%;
-  max-height: 200px;
-}
-
-
-
-/* PROVEEDORES SECTION -------------------------------------*/
-
-#info {
-  background: #333;
-  color: #fff;
-  text-align: center;
-  padding: 20px;
-}
-
-#info .contenedor {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.info-pet {
-  margin: 20px;
-}
-
-.info-pet img {
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
-  border: 7px solid #fff;
-}
-
-@media (min-width:480px) {
-  .info-pet {
-    width: 40%;
-  }
-}
-
-@media (min-width:1024px) {
-  .info-pet {
-    width: auto;
-  }
-}
 #menu-bar {
   display: none;
 }
