@@ -1,19 +1,20 @@
 var slideIndex = 1;
-showSlides(slideIndex);
+showSlides(slideIndex, "proveedorSlide");
+showSlides(slideIndex, "clienteSlide");
 
 // Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+function plusSlides(n,className) {
+  showSlides(slideIndex += n, className);
 }
 
 // Thumbnail image controls
 function currentSlide(n) {
-  showSlides(slideIndex = n);
+  showSlides(slideIndex = n, className);
 }
 
-function showSlides(n) {
+function showSlides(n, className) {
   var i;
-  var slides = document.getElementsByClassName("mySlides");
+  var slides = document.getElementsByClassName(className);
   var dots = document.getElementsByClassName("dot");
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}

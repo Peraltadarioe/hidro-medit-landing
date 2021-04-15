@@ -125,11 +125,13 @@ footer .contenedor {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  /* border: 1px solid black; */
+  height: 250px;
 }
 
 #clientes img {
   width: 100%;
-  max-width: 280px;
+  max-height: 200px;
 }
 
 /* Slideshow container */
@@ -137,7 +139,6 @@ footer .contenedor {
   max-width: 1000px;
   position: relative;
   margin: auto;
-  border: 1px solid black;
 }
 
 /* Hide the images by default */
@@ -228,8 +229,31 @@ footer .contenedor {
 
 /* CLIENTES SECTION -------------------------------------*/
 
+/* PROVEEDORES SECTION -------------------------------------*/
+#proveedores {
+  background-color: #fff;
+}
+
+#proveedores h3 {
+  text-align: center;
+}
+
+#proveedores .contenedor{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* border: 1px solid black; */
+  height: 250px;
+}
+
+#proveedores img {
+  width: 100%;
+  max-height: 200px;
+}
 
 
+
+/* PROVEEDORES SECTION -------------------------------------*/
 
 #info {
   background: #333;
