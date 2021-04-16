@@ -183,6 +183,19 @@ footer .contenedor {
 
 /* PRODUCTOS SECTION -------------------------------------*/
 
+/* CONTACTO SECTION -------------------------------------*/
+#contacto {
+  background-color: #fff;
+}
+
+#contacto h3, #contacto p {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+/* CONTACTO SECTION -------------------------------------*/
+
+
 /* SLIDESHOWs SECTION -------------------------------------*/
 
 /* Slideshow container */
