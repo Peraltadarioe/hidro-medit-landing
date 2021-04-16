@@ -191,6 +191,11 @@ footer .contenedor {
 #contacto h3, #contacto p {
   text-align: center;
   margin-bottom: 1em;
+} 
+
+.mapouter {
+  display:block;
+    margin:auto;
 }
 
 /* CONTACTO SECTION -------------------------------------*/
