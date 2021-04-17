@@ -19,12 +19,13 @@ body {
 .contenedor {
   width: 98%;
   margin: auto;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 section {
   width: 100%;
   margin-bottom: 25px;
+  padding-top:2em;
 }
 
 #clientes-proveedores {
@@ -47,7 +48,7 @@ header {
 }
 
 header img {
-  height: 50px;
+  height: 48px;
 }
 
 header .contenedor {
@@ -78,45 +79,6 @@ header .contenedor {
   text-align: center;
 }
 /* BIENVENIDOS SECTION -------------------------------------*/
-
-footer .contenedor {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding-bottom: 25px;
-}
-
-.copy {
-  font-size: 20px;
-}
-
-.sociales {
-  width: 100%;
-  text-align: center;
-  font-size: 28px;
-}
-
-.sociales a {
-  color: #333;
-  text-decoration: none;
-}
-
-@media (min-width:768px) { 
-  .sociales {
-    width: auto;
-  }
-  
-  footer .contenedor {
-    justify-content: space-between;
-  }
-}
-
-
-@media (min-width:1024px) {
-  .contenedor {
-    width: 1000px;
-  }
-}
 
 /* CLIENTES SECTION -------------------------------------*/
 
@@ -180,7 +142,12 @@ footer .contenedor {
   margin-bottom: 1em;
 }
 
-
+#productos img {
+  /*width: 100%;
+  max-height: 200px;*/
+  -webkit-box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.42); 
+  box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.42);
+}
 
 
 /* PRODUCTOS SECTION -------------------------------------*/
@@ -205,6 +172,47 @@ footer .contenedor {
 
 /* CONTACTO SECTION -------------------------------------*/
 
+footer .contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 25px;
+}
+
+.copy {
+  font-size: 20px;
+}
+
+.sociales {
+  width: 100%;
+  text-align: center;
+  font-size: 28px;
+}
+
+.sociales a {
+  color: #333;
+  text-decoration: none;
+}
+
+@media (min-width:768px) { 
+  .sociales {
+    width: auto;
+  }
+  
+  footer .contenedor {
+    justify-content: space-between;
+  }
+}
+
+
+@media (min-width:1024px) {
+  .contenedor {
+    width: 1000px;
+  }
+}
+
+
+
 
 /* SLIDESHOWs SECTION -------------------------------------*/
 
@@ -213,25 +221,25 @@ footer .contenedor {
   max-width: 1000px;
   position: relative;
   margin: auto;
-  margin-top: 60px;
+  /*margin-top: 60px; */
 }
 
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
 
 /* Next & previous buttons */
+.prev-next-container {
+  width: 100%;
+  border: 1px dotted black;
+  display: flex ;
+  justify-content: space-around;
+  height: 2em;
+}
+
 .prev, .next {
   cursor: pointer;
-  position: absolute;
-  top: -35px;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
+  border: 1px dotted black;
   color: black;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1.5em;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
@@ -240,20 +248,19 @@ footer .contenedor {
 /* Position the "next button" to the right */
 .next {
   right: 0;
-  border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgb(103, 170, 206);
+  background-color: rgb(20, 20, 20);
 }
+
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color: #1a1919;
   font-size: 15px;
   padding: 8px 12px;
-  position: absolute;
   bottom: 8px;
   width: 100%;
   text-align: center;
@@ -274,7 +281,7 @@ footer .contenedor {
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: rgb(230, 39, 39);
   border-radius: 50%;
   display: inline;
   transition: background-color 0.6s ease;

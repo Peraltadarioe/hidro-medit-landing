@@ -1,6 +1,11 @@
 var slideIndex = 1;
 showSlides(slideIndex, "proveedorSlide");
 showSlides(slideIndex, "clienteSlide");
+showSlides(slideIndex, "bombaDinamicaSlide");
+showSlides(slideIndex, "bombaPositivaSlide");
+showSlides(slideIndex, "reductoresSlide");
+showSlides(slideIndex, "acoplamientosSlide");
+showSlides(slideIndex, "accesoriosSlide");
 
 // Next/previous controls
 function plusSlides(n,className) {

@@ -17,9 +17,9 @@
             <nav class="menu">
             <a href="#bienvenidos">Inicio</a>
             <a href="#clientes">Clientes</a>
-            <a href="#info">Proveedores</a>
-            <a href="">Productos</a>
-            <a href="">Contacto</a>
+            <a href="#proveedores">Proveedores</a>
+            <a href="#productos">Productos</a>
+            <a href="#contacto">Contacto</a>
             </nav>
         </div>
     </header>
@@ -63,6 +63,11 @@
         <section id="clientes">
           <h3>Nuestros Clientes</h3>
           <div class="contenedor">
+            <!-- Next and previous buttons -->
+            <div class="prev-next-container">
+              <a class="prev" onclick="plusSlides(-1,'clienteSlide')">&#10094;</a>
+              <a class="next" onclick="plusSlides(1,'clienteSlide')">&#10095;</a>
+            </div>
             <!-- Slideshow container -->
             <div class="slideshow-container">
               <!-- Full-width images with number and caption text -->
@@ -205,9 +210,7 @@
                 <!--<div class="text">Caption Text</div> -->
               </div>
 
-              <!-- Next and previous buttons -->
-              <a class="prev" onclick="plusSlides(-1,'clienteSlide')">&#10094;</a>
-              <a class="next" onclick="plusSlides(1,'clienteSlide')">&#10095;</a>
+              
             </div>
             <br>
 
@@ -223,6 +226,11 @@
         <section id="proveedores">
           <h3>Nuestros Proveedores</h3>
           <div class="contenedor">
+            <!-- Next and previous buttons -->
+            <div class="prev-next-container">
+              <a class="prev" onclick="plusSlides(-1,'proveedorSlide')">&#10094;</a>
+              <a class="next" onclick="plusSlides(1,'proveedorSlide')">&#10095;</a>
+            </div>
             <!-- Slideshow container -->
             <div class="slideshow-container">
               <!-- Full-width images with number and caption text -->
@@ -286,9 +294,7 @@
                 <!--<div class="text">Caption Text</div> -->
               </div>
 
-              <!-- Next and previous buttons -->
-              <a class="prev" onclick="plusSlides(-1,'proveedorSlide')">&#10094;</a>
-              <a class="next" onclick="plusSlides(1,'proveedorSlide')">&#10095;</a>
+              
             </div>
             <br>
 
@@ -307,78 +313,174 @@
       <section id="productos">
         <h3>Nuestros Productos</h3>
         <div class="contenedor">
+          
+          <h4>Bombas Dinámicas</h4>
+          <!-- Next and previous buttons -->
+          <div class="prev-next-container">
+            <a class="prev" onclick="plusSlides(-1,'bombaDinamicaSlide')">&#10094;</a>
+            <a class="next" onclick="plusSlides(1,'bombaDinamicaSlide')">&#10095;</a>
+          </div>
           <div class="contenedor-bombas-dinamicas">
-            <h4>Bombas Dinámicas</h4>
-
             <!-- Slideshow container -->
             <div class="slideshow-container">
               <!-- Full-width images with number and caption text -->
-              <div class="proveedorSlide fade">
+              <div class="bombaDinamicaSlide fade">
+                <div class="text">Sumergible Neumática</div>
                 <!--<div class="numbertext">1 / 3</div>-->
-                <img src="images/proveedor-dosivac.png" style="width:100%">
+                <img src="images/bombas-dinamicas/1-a-sumergible-neumática.jpg" style="width:100%">
+              </div>
+              <div class="bombaDinamicaSlide fade">
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-dinamicas/1-en-acero-inox-ind-sanit-2.jpg" style="width:100%">
                 <!--<div class="text">Caption Text</div> -->
               </div>
-
-              <div class="proveedorSlide fade">
-                <div class="numbertext">2 / 3</div>
-                <img src="images/proveedor-ebarra.jpg" style="width:100%">
+              <div class="bombaDinamicaSlide fade">
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-dinamicas/1-en-acero-inox-ind-sanit-3.jpg" style="width:100%">
                 <!--<div class="text">Caption Text</div> -->
               </div>
-
-              <div class="proveedorSlide fade">
-                <div class="numbertext">3 / 3</div>
-                <img src="images/proveedor-fristam.png" style="width:100%">
+              <div class="bombaDinamicaSlide fade">
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-dinamicas/1-en-acero-inox-ind-sanit.jpg" style="width:100%">
                 <!--<div class="text">Caption Text</div> -->
               </div>
-
-              <div class="proveedorSlide fade">
-                <div class="numbertext">3 / 3</div>
-                <img src="images/proveedor-gummi.jpg" style="width:100%">
+              <div class="bombaDinamicaSlide fade">
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-dinamicas/2-antiacida-2.png" style="width:100%">
                 <!--<div class="text">Caption Text</div> -->
               </div>
-
-              <div class="proveedorSlide fade">
-                <div class="numbertext">3 / 3</div>
-                <img src="images/proveedor-knorr.png" style="width:100%">
+              <div class="bombaDinamicaSlide fade">
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-dinamicas/2-antiacidas.png" style="width:100%">
                 <!--<div class="text">Caption Text</div> -->
               </div>
-
-              <div class="proveedorSlide fade">
-                <div class="numbertext">3 / 3</div>
-                <img src="images/proveedor-lutz.png" style="width:100%">
+              <div class="bombaDinamicaSlide fade">
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-dinamicas/3-cloacales.jpg" style="width:100%">
                 <!--<div class="text">Caption Text</div> -->
               </div>
-
-              <div class="proveedorSlide fade">
-                <div class="numbertext">3 / 3</div>
-                <img src="images/proveedor-sihi.png" style="width:100%">
+              <div class="bombaDinamicaSlide fade">
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-dinamicas/3-cloacales-3.jpg" style="width:100%">
                 <!--<div class="text">Caption Text</div> -->
               </div>
-
-              <div class="proveedorSlide fade">
-                <div class="numbertext">3 / 3</div>
-                <img src="images/proveedor-speroni.png" style="width:100%">
+              <div class="bombaDinamicaSlide fade">
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-dinamicas/3-cloacal-vertical.jpg" style="width:100%">
                 <!--<div class="text">Caption Text</div> -->
               </div>
-
-              <div class="proveedorSlide fade">
-                <div class="numbertext">3 / 3</div>
-                <img src="images/proveedor-stm.jpg" style="width:100%">
+              <div class="bombaDinamicaSlide fade">
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-dinamicas/4-centrif-de-proc-y-serv-contrainc.png" style="width:100%">
                 <!--<div class="text">Caption Text</div> -->
               </div>
-
-              <div class="proveedorSlide fade">
-                <div class="numbertext">3 / 3</div>
-                <img src="images/proveedor-zenit.png" style="width:100%">
+              <div class="bombaDinamicaSlide fade">
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-dinamicas/4-centrifug-proc-y-serv-contrainc.jpg" style="width:100%">
                 <!--<div class="text">Caption Text</div> -->
               </div>
-
-              <!-- Next and previous buttons -->
-              <a class="prev" onclick="plusSlides(-1,'proveedorSlide')">&#10094;</a>
-              <a class="next" onclick="plusSlides(1,'proveedorSlide')">&#10095;</a>
+              <div class="bombaDinamicaSlide fade">
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-dinamicas/5-multietapa.jpg" style="width:100%">
+                <!--<div class="text">Caption Text</div> -->
+              </div>
+              <div class="bombaDinamicaSlide fade">
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-dinamicas/5-multietapa2.jpg" style="width:100%">
+                <!--<div class="text">Caption Text</div> -->
+              </div>
+              <div class="bombaDinamicaSlide fade">
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-dinamicas/5-multietapas.jpg" style="width:100%">
+                <!--<div class="text">Caption Text</div> -->
+              </div>
+              <div class="bombaDinamicaSlide fade">
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-dinamicas/6-normalizada.jpg" style="width:100%">
+                <!--<div class="text">Caption Text</div> -->
+              </div>
+              <div class="bombaDinamicaSlide fade">
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-dinamicas/6-normalizada-2.jpg" style="width:100%">
+                <!--<div class="text">Caption Text</div> -->
+              </div>
+              <div class="bombaDinamicaSlide fade">
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-dinamicas/7-centrifuga-autocebante.jpg" style="width:100%">
+                <!--<div class="text">Caption Text</div> -->
+              </div>
+              <div class="bombaDinamicaSlide fade">
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-dinamicas/7-centrifuga-autocebante-2.jpg" style="width:100%">
+                <!--<div class="text">Caption Text</div> -->
+              </div>
+              <div class="bombaDinamicaSlide fade">
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-dinamicas/8-de-turbina-vertical.jpg" style="width:100%">
+                <!--<div class="text">Caption Text</div> -->
+              </div>
+              <div class="bombaDinamicaSlide fade">
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-dinamicas/8-deturbina-vertical-2.jpg" style="width:100%">
+                <!--<div class="text">Caption Text</div> -->
+              </div>
+              <div class="bombaDinamicaSlide fade">
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-dinamicas/9-sumergible-de-pozo-prof.jpg" style="width:100%">
+                <!--<div class="text">Caption Text</div> -->
+              </div>
+              <div class="bombaDinamicaSlide fade">
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-dinamicas/10-sumerg-portatil.jpg" style="width:100%">
+                <!--<div class="text">Caption Text</div> -->
+              </div>
+              <div class="bombaDinamicaSlide fade">
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-dinamicas/10-sumergibble-portatil-2.jpg" style="width:100%">
+                <!--<div class="text">Caption Text</div> -->
+              </div>
+              <div class="bombaDinamicaSlide fade">
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-dinamicas/11-centrif-de-acople-magn-2.png" style="width:100%">
+                <!--<div class="text">Caption Text</div> -->
+              </div>
+              <div class="bombaDinamicaSlide fade">
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-dinamicas/11-centrifuga-de-acople-magnetico.png" style="width:100%">
+                <!--<div class="text">Caption Text</div> -->
+              </div>
+              <div class="bombaDinamicaSlide fade">
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-dinamicas/12-trasvase.jpg" style="width:100%">
+                <!--<div class="text">Caption Text</div> -->
+              </div>
+              <div class="bombaDinamicaSlide fade">
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-dinamicas/13-alta-temperatura.jpg" style="width:100%">
+                <!--<div class="text">Caption Text</div> -->
+              </div>
+              <div class="bombaDinamicaSlide fade">
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-dinamicas/14-autoaspirante.jpg" style="width:100%">
+                <!--<div class="text">Caption Text</div> -->
+              </div>
+              <div class="bombaDinamicaSlide fade">
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-dinamicas/14-autoaspirante-3.jpg" style="width:100%">
+                <!--<div class="text">Caption Text</div> -->
+              </div>
+              <div class="bombaDinamicaSlide fade">
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-dinamicas/15-de-vacio.jpg" style="width:100%">
+                <!--<div class="text">Caption Text</div> -->
+              </div>
+              <div class="bombaDinamicaSlide fade">
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-dinamicas/15-de-vacio-2.jpg" style="width:100%">
+                <!--<div class="text">Caption Text</div> -->
+              </div>
             </div>
             <br>
-
             <!-- The dots/circles -->
             <div style="text-align:center">
               <span class="dot" onclick="currentSlide(1)"></span>
@@ -386,6 +488,338 @@
               <span class="dot" onclick="currentSlide(3)"></span>
             </div>
           </div>
+
+          <h4>Bombas Positivas</h4>
+          <!-- Next and previous buttons -->
+          <div class="prev-next-container">
+            <a class="prev" onclick="plusSlides(-1,'bombaPositivaSlide')">&#10094;</a>
+            <a class="next" onclick="plusSlides(1,'bombaPositivaSlide')">&#10095;</a>
+          </div>
+          <div class="contenedor-bombas-positivas">
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+              <!-- Full-width images with number and caption text -->
+              <div class="bombaPositivaSlide fade">
+                <div class="text">Neumática de Diafragma y pistón</div>
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-positivas/1-NEUMATICA-DE-DIAFRAGMA-Y-PISTON.png" style="width:100%">
+              </div>
+              <div class="bombaPositivaSlide fade">
+                <!--<div class="text">Neumática de Diafragma y pistón</div>-->
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-positivas/2-aPERISTALTICA-1.png" style="width:100%">
+              </div>
+              <div class="bombaPositivaSlide fade">
+                <!--<div class="text">Neumática de Diafragma y pistón</div>-->
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-positivas/2-bPERISTALTICA-2.png" style="width:100%">
+              </div>
+              <div class="bombaPositivaSlide fade">
+                <!--<div class="text">Neumática de Diafragma y pistón</div>-->
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-positivas/2-cavidad-progresiva.jpg" style="width:100%">
+              </div>
+              <div class="bombaPositivaSlide fade">
+                <!--<div class="text">Neumática de Diafragma y pistón</div>-->
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-positivas/2-de-cavidad-progesiva.png" style="width:100%">
+              </div>
+              <div class="bombaPositivaSlide fade">
+                <!--<div class="text">Neumática de Diafragma y pistón</div>-->
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-positivas/3-a-engranajes.jpg" style="width:100%">
+              </div>
+              <div class="bombaPositivaSlide fade">
+                <!--<div class="text">Neumática de Diafragma y pistón</div>-->
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-positivas/3-a-engranajes-2.jpg" style="width:100%">
+              </div>
+              <div class="bombaPositivaSlide fade">
+                <!--<div class="text">Neumática de Diafragma y pistón</div>-->
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-positivas/5-multiple-diafragma-para-alta-presion.jpg" style="width:100%">
+              </div>
+              <div class="bombaPositivaSlide fade">
+                <!--<div class="text">Neumática de Diafragma y pistón</div>-->
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-positivas/5-multiple-diafragma-para-alta-presion.png" style="width:100%">
+              </div>
+              <div class="bombaPositivaSlide fade">
+                <!--<div class="text">Neumática de Diafragma y pistón</div>-->
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-positivas/6-lobulares.jpg" style="width:100%">
+              </div>
+              <div class="bombaPositivaSlide fade">
+                <!--<div class="text">Neumática de Diafragma y pistón</div>-->
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-positivas/6-lobulares-2.jpg" style="width:100%">
+              </div>
+              <div class="bombaPositivaSlide fade">
+                <!--<div class="text">Neumática de Diafragma y pistón</div>-->
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-positivas/7-dosificadoras2.jpg" style="width:100%">
+              </div>
+              <div class="bombaPositivaSlide fade">
+                <!--<div class="text">Neumática de Diafragma y pistón</div>-->
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-positivas/7-dosificadoras3.png" style="width:100%">
+              </div>
+              <div class="bombaPositivaSlide fade">
+                <!--<div class="text">Neumática de Diafragma y pistón</div>-->
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-positivas/7-dosificadoras-3.jpg" style="width:100%">
+              </div>
+              <div class="bombaPositivaSlide fade">
+                <!--<div class="text">Neumática de Diafragma y pistón</div>-->
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-positivas/8-de-piston-para-alta-presion.jpg" style="width:100%">
+              </div>
+              <div class="bombaPositivaSlide fade">
+                <!--<div class="text">Neumática de Diafragma y pistón</div>-->
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-positivas/8-Piston-para-altas-presiones.png" style="width:100%">
+              </div>
+              <div class="bombaPositivaSlide fade">
+                <!--<div class="text">Neumática de Diafragma y pistón</div>-->
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-positivas/12-de-trasvaase.jpg" style="width:100%">
+              </div>
+              <div class="bombaPositivaSlide fade">
+                <!--<div class="text">Neumática de Diafragma y pistón</div>-->
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-positivas/13-regenerativas-o-de-trubina.jpg" style="width:100%">
+              </div>
+              <div class="bombaPositivaSlide fade">
+                <!--<div class="text">Neumática de Diafragma y pistón</div>-->
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-positivas/13-regenerativa-o-de-turbina-2.jpg" style="width:100%">
+              </div>
+              <div class="bombaPositivaSlide fade">
+                <!--<div class="text">Neumática de Diafragma y pistón</div>-->
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/bombas-positivas/13-regenerativa-o-de-turbina-3.jpg" style="width:100%">
+              </div>
+            </div>
+            <br>
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+          </div>
+
+          <h4>Reductores y Motoreductores</h4>
+          <!-- Next and previous buttons -->
+          <div class="prev-next-container">
+            <a class="prev" onclick="plusSlides(-1,'reductoresSlide')">&#10094;</a>
+            <a class="next" onclick="plusSlides(1,'reductoresSlide')">&#10095;</a>
+          </div>
+          <div class="contenedor-reductores">
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+              <!-- Full-width images with number and caption text -->
+              <div class="reductoresSlide fade">
+                <div class="text">Coaxial</div>
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/reductores/COAXIAL.png" style="width:100%">
+              </div>
+              <div class="reductoresSlide fade">
+                <!--<div class="text">Coaxial</div>-->
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/reductores/COAXIALES.jpg" style="width:100%">
+              </div>
+              <div class="reductoresSlide fade">
+                <!--<div class="text">Coaxial</div>-->
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/reductores/EPICICLOIDAL.jpg" style="width:100%">
+              </div>
+              <div class="reductoresSlide fade">
+                <!--<div class="text">Coaxial</div>-->
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/reductores/MOTORES-ELECTRICOS.jpg" style="width:100%">
+              </div>
+              <div class="reductoresSlide fade">
+                <!--<div class="text">Coaxial</div>-->
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/reductores/ORTOGONALES.jpg" style="width:100%">
+              </div>
+              <div class="reductoresSlide fade">
+                <!--<div class="text">Coaxial</div>-->
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/reductores/ORTOGONALES.png" style="width:100%">
+              </div>
+              <div class="reductoresSlide fade">
+                <!--<div class="text">Coaxial</div>-->
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/reductores/PENDULAR.jpg" style="width:100%">
+              </div>
+              <div class="reductoresSlide fade">
+                <!--<div class="text">Coaxial</div>-->
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/reductores/sin-fin-y-corona.jpg" style="width:100%">
+              </div>
+              <div class="reductoresSlide fade">
+                <!--<div class="text">Coaxial</div>-->
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/reductores/sin-fin-y-corona.png" style="width:100%">
+              </div>
+              <div class="reductoresSlide fade">
+                <!--<div class="text">Coaxial</div>-->
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/reductores/TRENES-PARALELOS.jpg" style="width:100%">
+              </div>
+              <div class="reductoresSlide fade">
+                <!--<div class="text">Coaxial</div>-->
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/reductores/TRENES-PARALELOS.png" style="width:100%">
+              </div>
+              <div class="reductoresSlide fade">
+                <!--<div class="text">Coaxial</div>-->
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/reductores/variador-de-velocidad.jpg" style="width:100%">
+              </div>
+              <div class="reductoresSlide fade">
+                <!--<div class="text">Coaxial</div>-->
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/reductores/variador-mecanico.jpg" style="width:100%">
+              </div>
+              
+            </div>
+            <br>
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+          </div>
+
+          <h4>Acoplamientos</h4>
+          <!-- Next and previous buttons -->
+          <div class="prev-next-container">
+            <a class="prev" onclick="plusSlides(-1,'acoplamientosSlide')">&#10094;</a>
+            <a class="next" onclick="plusSlides(1,'acoplamientosSlide')">&#10095;</a>
+          </div>
+          <div class="contenedor-reductores">
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+              <!-- Full-width images with number and caption text -->
+              <div class="acoplamientosSlide fade">
+                <div class="text">Acoples</div>
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/acoplamientos/ACOPLES.jpg" style="width:100%">
+              </div>
+              <div class="acoplamientosSlide fade">
+                <!--<div class="text">Coaxial</div>-->
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/acoplamientos/ACOPLES.png" style="width:100%">
+              </div>
+              <div class="acoplamientosSlide fade">
+                <!--<div class="text">Coaxial</div>-->
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/acoplamientos/ACOPLES-2.jpg" style="width:100%">
+              </div>
+              <div class="acoplamientosSlide fade">
+                <!--<div class="text">Coaxial</div>-->
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/acoplamientos/ACOPLES-3.jpg" style="width:100%">
+              </div>
+              
+              
+            </div>
+            <br>
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+          </div>
+
+          <h4>Accesorios y repuestos</h4>
+          <!-- Next and previous buttons -->
+          <div class="prev-next-container">
+            <a class="prev" onclick="plusSlides(-1,'accesoriosSlide')">&#10094;</a>
+            <a class="next" onclick="plusSlides(1,'accesoriosSlide')">&#10095;</a>
+          </div>
+          <div class="contenedor-accesorios">
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+              <!-- Full-width images with number and caption text -->
+              <div class="accesoriosSlide fade">
+                <div class="text">Acoples</div>
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/accesorios/Amortiguador-de-pulsos.png" style="width:100%">
+              </div>
+              <div class="accesoriosSlide fade">
+                <!--<div class="text">Acoples</div>-->
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/accesorios/ARO_Controller.png" style="width:100%">
+              </div>
+              <div class="accesoriosSlide fade">
+                <!--<div class="text">Acoples</div>-->
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/accesorios/ECOPRESS.jpg" style="width:100%">
+              </div>
+              <div class="accesoriosSlide fade">
+                <!--<div class="text">Acoples</div>-->
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/accesorios/foto-gruppo-ACQUA-FREDDA.jpg" style="width:100%">
+              </div>
+              <div class="accesoriosSlide fade">
+                <!--<div class="text">Acoples</div>-->
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/accesorios/images1MUGOYOI.jpg" style="width:100%">
+              </div>
+              <div class="accesoriosSlide fade">
+                <!--<div class="text">Acoples</div>-->
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/accesorios/imagesV27J2U40.jpg" style="width:100%">
+              </div>
+              <div class="accesoriosSlide fade">
+                <!--<div class="text">Acoples</div>-->
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/accesorios/matic-copy.jpg" style="width:100%">
+              </div>
+              <div class="accesoriosSlide fade">
+                <!--<div class="text">Acoples</div>-->
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/accesorios/neumaticas-2.jpg" style="width:100%">
+              </div>
+              <div class="accesoriosSlide fade">
+                <!--<div class="text">Acoples</div>-->
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/accesorios/repuestos.jpg" style="width:100%">
+              </div>
+              <div class="accesoriosSlide fade">
+                <!--<div class="text">Acoples</div>-->
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/accesorios/untitled2.png" style="width:100%">
+              </div>
+              <div class="accesoriosSlide fade">
+                <!--<div class="text">Acoples</div>-->
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/accesorios/untitled3.png" style="width:100%">
+              </div>
+              <div class="accesoriosSlide fade">
+                <!--<div class="text">Acoples</div>-->
+                <!--<div class="numbertext">1 / 3</div>-->
+                <img src="images/accesorios/Valvulas-neumaticas-y-FRL-ARO.jpg" style="width:100%">
+              </div>
+              
+              
+              
+            </div>
+            <br>
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+          </div>
+
         </div>
       </section>
     
