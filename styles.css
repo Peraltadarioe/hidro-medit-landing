@@ -165,6 +165,11 @@ header .contenedor {
 
 #productos h4 {
   text-align: center;
+  margin: 0;
+  background-color: rgb(80, 172, 233);;
+  color: #fff;
+  padding: .5em;
+  font-size: 1.25em;
 }
 #productos h3 {
   text-align: center;
@@ -175,19 +180,17 @@ header .contenedor {
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
 
  .product-container {
   background-color: #fff;
   margin-bottom: 2em;
   max-width: 300px;
-  width: 90%;
+  width: 95%;
+  height: 400px;
   -webkit-box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.42); 
   box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.42);
-}
-
-.product-container  {
-  height: 400px;
 }
 
 @media (min-width:768px) { 
@@ -200,8 +203,6 @@ header .contenedor {
 
   .product-container{
     margin-right: 2em;
-    max-height: 400px;
-
   }
 
 }
@@ -298,7 +299,9 @@ footer .contenedor {
   width: 100%;
   display: flex ;
   justify-content: space-around;
-  height: 2em;
+  height: 3em;
+  background-color: rgb(80, 172, 233);;
+
 }
 
 .prev, .next {
@@ -366,7 +369,6 @@ footer .contenedor {
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
-  height: 100%;
 }
 
 @-webkit-keyframes fade {
