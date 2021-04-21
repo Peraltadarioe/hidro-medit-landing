@@ -171,6 +171,8 @@ header .contenedor {
   padding: .5em;
   font-size: 1.25em;
 }
+
+
 #productos h3 {
   text-align: center;
   margin-bottom: 1em;
@@ -299,11 +301,14 @@ footer .contenedor {
   width: 100%;
   display: flex ;
   justify-content: space-around;
-  height: 3em;
-  background-color: rgb(80, 172, 233);;
+  
 
 }
 
+.prev-next-product{
+  height: 3em;
+  background-color: rgb(80, 172, 233);;
+}
 .prev, .next {
   cursor: pointer;
   /* border: 1px solid black; */
