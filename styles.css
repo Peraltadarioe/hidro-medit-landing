@@ -96,6 +96,11 @@ header .contenedor {
 
 #clientes {
   background-color: #fff;
+  -webkit-box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.42); 
+  box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.42);
+  margin: auto;
+  margin-bottom: 2em;
+  max-width:90%;
 }
 
 #clientes h3 {
@@ -104,18 +109,17 @@ header .contenedor {
 
 #clientes .contenedor{
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
+  justify-content:space-around;
+  align-items: center;
   /* border: 1px solid black; */
-  height: 250px;
-  max-width:300px;
+  height: 450px;
+  width:95%;
+  
 }
 
 #clientes img {
-  width: 100%;
-  max-height: 200px;
-  -webkit-box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.42); 
-  box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.42);
+  max-height: 12%;
 }
 /* CLIENTES SECTION -------------------------------------*/
 
@@ -123,6 +127,11 @@ header .contenedor {
 /* PROVEEDORES SECTION -------------------------------------*/
 #proveedores {
   background-color: #fff;
+  -webkit-box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.42); 
+  box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.42);
+  margin: auto;
+  max-width:90%;
+
 }
 
 #proveedores h3 {
@@ -131,31 +140,21 @@ header .contenedor {
 
 #proveedores .contenedor{
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
+  justify-content:space-around;
+  align-items: center;
   /* border: 1px solid black; */
-  height: 250px;
-  max-width:300px;
+  height: 350px;
 }
 
 #proveedores img {
-  width: 100%;
-  max-height: 200px;
-  -webkit-box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.42); 
-  box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.42);
+  max-width: 50%;
 }
 
-.proveedores-tag-container{
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  padding: 2em;
+#proveedores .contenedor div {
+  margin-bottom: .5em;
 }
-
-.proveedores-tag-container div {
-  margin-bottom: 1em;
-}
-.proveedores-tag-container div span{
+#proveedores .contenedor div span{
   border-radius: 10px ;
 }
 
