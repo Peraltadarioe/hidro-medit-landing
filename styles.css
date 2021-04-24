@@ -30,7 +30,6 @@ section {
 }
 
 #clientes-proveedores {
-  background: #fff;
   padding: .5em;
   display: flex;
   flex-direction: column;
@@ -51,7 +50,7 @@ section {
 
 header {
   width: 100%;
-  height: 50px;
+  height: 70px;
   background: #fff;
   color:  rgb(45, 43, 125);
   position: fixed;
@@ -61,7 +60,7 @@ header {
 }
 
 header img {
-  height: 48px;
+  height: 68px;
 }
 
 header .contenedor {
@@ -94,9 +93,6 @@ header .contenedor {
 
 /* CLIENTES SECTION -------------------------------------*/
 
-#clientes {
-  background-color: #fff;
-}
 
 #clientes h3 {
   text-align: center;
@@ -114,16 +110,15 @@ header .contenedor {
 #clientes img {
   width: 100%;
   max-height: 200px;
+  /*
   -webkit-box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.42); 
   box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.42);
+  */
 }
 /* CLIENTES SECTION -------------------------------------*/
 
 
 /* PROVEEDORES SECTION -------------------------------------*/
-#proveedores {
-  background-color: #fff;
-}
 
 #proveedores h3 {
   text-align: center;
@@ -141,8 +136,10 @@ header .contenedor {
 #proveedores img {
   width: 100%;
   max-height: 200px;
+  /*
   -webkit-box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.42); 
   box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.42);
+  */
 }
 
 .proveedores-tag-container{
@@ -163,6 +160,10 @@ header .contenedor {
 
 /* PRODUCTOS SECTION -------------------------------------*/
 
+#productos {
+  background: #fff;
+
+}
 #productos h4 {
   text-align: center;
   margin: 0;
@@ -297,39 +298,27 @@ footer .contenedor {
 
 /* Next & previous buttons */
 .prev-next-container {
+  background-color: rgb(255, 255, 255);
   width: 100%;
   display: flex ;
   justify-content: space-around;
-}
-
-.prev-next-product{
-  height: 3.25em;
-  background-color: rgb(80, 172, 233);
-  display: flex;
-  justify-content: space-around;
   align-items: center;
+
 }
 
 .prev-next-product .prev,
 .prev-next-product .next {
-  color: #fff;
-
+  color: rgb(80, 172, 233);
 }
-
 
 .prev, .next {
   cursor: pointer;
   color: rgb(0, 0, 0);
   font-weight: bold;
-  font-size: 2em;
+  font-size: 3em;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -390,13 +379,13 @@ footer .contenedor {
 header label {
   float: right;
   font-size: 28px;
-  margin: 6px 0;
+  margin: 18px 0;
   cursor: pointer;
 }
 
 .menu {
   position: absolute;
-  top: 50px;
+  top: 70px;
   left: 0;
   width: 100%;
   height: 100vh;
@@ -430,6 +419,7 @@ header label {
     transform: translateX(0%);
     float: right;
     display: flex;
+    margin-top: 9px;
   }
   
   .menu a {
