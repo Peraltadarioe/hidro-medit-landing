@@ -3,6 +3,17 @@
 [class*="fontawesome-"]:before {
   font-family: 'FontAwesome', sans-serif;
 }
+/*
+@font-face {
+  font-family: 'Gadugi';
+  src: URL('gadugi.ttf') format('truetype');
+} 
+*/
+
+@font-face {
+  font-family: 'Malgun';
+  src: URL('malgun.ttf') format('truetype');
+} 
 
 /* GENERALES -------------------------------------*/
 * {
@@ -12,8 +23,7 @@
 }
 
 body {
-  /*font-family: 'Open Sans', sans-serif; */
-  font-family: 'Calibri', sans-serif; 
+  font-family: 'Malgun', sans-serif;;
   font-size: 16px;
   background: rgb(103,170,206);
   background: linear-gradient(90deg, rgba(103,170,206,1) 28%, rgba(204,228,241,1) 100%);
