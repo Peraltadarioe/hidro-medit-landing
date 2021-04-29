@@ -79,6 +79,15 @@ header .contenedor {
   display: table;
 }
 
+@media (min-width:1024px) { 
+  header {
+    height: 100px;
+  }
+  header img {
+    height: 98px;
+  }
+
+}
 /* HEADER -------------------------------------*/
 
 /* BIENVENIDOS SECTION -------------------------------------*/
@@ -89,9 +98,12 @@ header .contenedor {
   width: 100%;
 }
 
+#bienvenidos h2 {
+  font-size:1.5em;
+}
 #bienvenidos .contenedor .bomba-index {
-  width: 70%;
-  max-width: 500px;
+  width: 90%;
+  max-width: 1200px;
 }
 
 #bienvenidos .contenedor .subtitle {
@@ -440,11 +452,12 @@ header label {
     transform: translateX(0%);
     float: right;
     display: flex;
-    margin-top: 9px;
+    margin-top: 30px;
   }
   
   .menu a {
     border: none;
+    font-size: 1.12em;
   }
   
   header label { 
